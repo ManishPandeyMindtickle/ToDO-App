@@ -1,3 +1,8 @@
+## About this project
+First approach to react, follows the tutorial ["React Tutorial for Beginners" from Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0) but implemented using stateless components and tailwindcss for styling.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,5 +71,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-https://www.youtube.com/watch?v=Ke90Tje7VS0
