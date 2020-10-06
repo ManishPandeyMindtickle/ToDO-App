@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./components/header";
 import Counters from "./components/counters";
 
@@ -12,6 +12,7 @@ const allCounters = [
 
 function App() {
   const [counters, setCounters] = useState(allCounters);
+  const [items, setItems] = useState(allCounters.length);
 
   const handleIncrement = (counter) => {
     const newCounters = [...counters];
@@ -37,8 +38,9 @@ function App() {
   };
 
   const handleAdd = (counter) => {
-    const newCounters = [...counters, { id: counters.length, value: 0 }];
+    const newCounters = [...counters, { id: items, value: 0 }];
     setCounters(newCounters);
+    setItems(items + 1);
   };
 
   return (
