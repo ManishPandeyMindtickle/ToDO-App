@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import Header from "./components/header";
 import Counters from "./components/counters";
 
+const allCounters = [
+  { id: 0, value: 0 },
+  { id: 1, value: 1 },
+  { id: 2, value: 0 },
+  { id: 3, value: 3 },
+  { id: 4, value: 0 },
+];
+
 function App() {
-  const [counters, setCounters] = useState([
-    { id: 0, value: 0 },
-    { id: 1, value: 1 },
-    { id: 2, value: 0 },
-    { id: 3, value: 3 },
-    { id: 4, value: 0 },
-  ]);
+  const [counters, setCounters] = useState(allCounters);
 
   const handleIncrement = (counter) => {
     const newCounters = [...counters];
