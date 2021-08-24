@@ -4,10 +4,11 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.0.3",
+    "postcss": "^8.3.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^4.0.3",
-    "tailwindcss": "^1.6.2"
+    "tailwindcss": "^2.2.7"
   },
   "scripts": {
     "start": "npm run build:css && react-scripts start",
@@ -35,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss-cli": "^7.1.1"
+    "autoprefixer": "^10.3.2",
+    "postcss-cli": "^8.3.1"
   }
 }
