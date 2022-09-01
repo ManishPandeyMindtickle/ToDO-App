@@ -658,6 +658,11 @@ video {
 
 .sticky {
   position: sticky;
+  top: 0;
+  position: fixed;
+  width: 20%;
+  /* z-index: 1000;
+	position: absolute; */
 }
 
 .inset-0 {
@@ -703,9 +708,20 @@ video {
 }
 
 .right-0 {
-  right: 0;
+  right: -40px;
 }
 
+
+.right-1 {
+  right: 10px;
+}
+
+.right-2 {
+  right: 100px;
+}
+.right-3 {
+  right: 200px;
+}
 .right-auto {
   right: auto;
 }
@@ -1361,6 +1377,12 @@ video {
 .-mx-1 {
   margin-left: -0.25rem;
   margin-right: -0.25rem;
+}
+
+.manish-button{
+  float: right;
+  background-color: white;
+  padding: 2px 5px;
 }
 
 .-mx-2 {
@@ -6471,6 +6493,11 @@ video {
 .rounded-l-lg {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+
+.manish-border{
+  border: 2px solid black;
+  margin: 70px;
 }
 
 .rounded-l-full {
